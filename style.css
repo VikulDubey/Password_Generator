@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(#2b3c45, #5a40d8);
+}
+.header_para {
+  font-size: 2rem;
+  color: #fff;
+  line-height: 2.2rem;
+}
+.secondPara {
+  text-decoration: underline;
+  margin-bottom: 1rem;
+  color: rgb(201, 84, 17);
+}
+.inputArea {
+  position: relative;
+}
+.inputArea input[type="text"] {
+  outline: none;
+  border: 1px solid green;
+  border-radius: 0.2rem;
+  padding: 0.8rem;
+  width: 20rem;
+}
+
+.inputArea #copyBtn i {
+  font-size: 1.2rem;
+  position: absolute;
+  right: 0;
+  background: rgb(201, 84, 17);
+  cursor: pointer;
+  color: #fff;
+  padding: 0.8rem;
+  padding-inline: 2rem;
+  top: 0;
+  height: 100%;
+  border-radius: 0 0.2rem 0.2rem 0;
+}
+
+.submitBtn {
+  outline: none;
+  border-radius: 0.2rem;
+  padding: 0.8rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 500;
+  background-color: rgb(201, 84, 17);
+}
